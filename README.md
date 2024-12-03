@@ -8,6 +8,7 @@
     - how much code is actually modified in practice?
     - if expansions can be kept within a line => concise encoding of mapping on specific lines where necessary?
     - bookkeeping of mapping across the whole abstract syntax tree?
+- [ ] See whether the supposedly efficient tree-sitter parsing with incremental updates can be taken advantage with LSP `textDocument/didChange` events containing small changes
 - [ ] Implement other LSP capabilities
   - [ ] hover
   - [ ] completion
